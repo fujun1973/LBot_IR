@@ -10,7 +10,7 @@ declare namespace lbot_IR {
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="按 |%btn| 按钮被按下" shim=lbot_IR::onPressEvent
+    //% block="当 |%btn| 按钮被按下" shim=lbot_IR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
