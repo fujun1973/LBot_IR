@@ -4,20 +4,20 @@
 
     //% color=50 weight=19
     //% icon="\uf1eb"
-declare namespace Mbit_IR {
+declare namespace lbot_IR {
 
     /**
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="on |%btn| button pressed" shim=Mbit_IR::onPressEvent
+    //% block="按 |%btn| 按钮被按下" shim=lbot_IR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
      * initialises local variablesssss
      */
     //% blockId=ir_init
-    //% block="connect ir receiver to %pin" shim=Mbit_IR::init
+    //% block="连接红外接收 到引脚 %pin" shim=lbot_IR::init
     function init(pin: Pins): void;
 }
 

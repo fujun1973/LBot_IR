@@ -1,6 +1,6 @@
- # mbit_IR for micro-bit
+ # lbot_IR for micro-bit
 
-Extension for Yahboom mbit_IR
+Extension for Yahboom lbot_IR
 
 Note: IR receiver for Yahboom receiver
 
